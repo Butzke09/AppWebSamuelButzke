@@ -1,6 +1,6 @@
-﻿CREATE DATABASE pds_app_web;
 
-USE pds_app_web;
+create database pds_app_web;
+use pds_app_web;
 
 CREATE TABLE processos (
     id_pro INT NOT NULL AUTO_INCREMENT,
