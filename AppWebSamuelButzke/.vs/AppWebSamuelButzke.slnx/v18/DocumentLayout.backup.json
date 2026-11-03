@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\components\\pages\\processo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:components\\pages\\processo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\components\\pages\\processo\\excluir.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:components\\pages\\processo\\excluir.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\components\\pages\\processo\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:components\\pages\\processo\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|c:\\users\\2024102020058\\documents\\appwebsamuelbutzke\\appwebsamuelbutzke\\model\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EF9E6A5-CC66-D8D0-C243-A54871D516BD}|AppWebSamuelButzke.csproj|solutionrelative:model\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-03T18:03:40.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Excluir.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Excluir.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Processo\\Excluir.razor",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Excluir.razor",
+              "RelativeToolTip": "Components\\Pages\\Processo\\Excluir.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-03T17:58:17.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Cadastro.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Processo\\Cadastro.razor",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Cadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\Processo\\Cadastro.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-03T17:47:21.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Processo\\Index.razor",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Index.razor*",
+              "RelativeToolTip": "Components\\Pages\\Processo\\Index.razor*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-03T17:41:45.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcessoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\DAO\\ProcessoDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\ProcessoDAO.cs",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\DAO\\ProcessoDAO.cs",
+              "RelativeToolTip": "DAO\\ProcessoDAO.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAIwLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T17:32:58.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Processo.cs",
               "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Model\\Processo.cs",
               "RelativeDocumentMoniker": "Model\\Processo.cs",
