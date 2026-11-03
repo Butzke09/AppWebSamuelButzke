@@ -38,12 +38,11 @@
               "Title": "Cadastro.razor",
               "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Cadastro.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Processo\\Cadastro.razor",
-              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Cadastro.razor*",
-              "RelativeToolTip": "Components\\Pages\\Processo\\Cadastro.razor*",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Cadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\Processo\\Cadastro.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-29T18:15:12.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T18:15:12.131Z"
             },
             {
               "$type": "Document",
@@ -51,12 +50,11 @@
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Index.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Processo\\Index.razor",
-              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Index.razor*",
-              "RelativeToolTip": "Components\\Pages\\Processo\\Index.razor*",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Components\\Pages\\Processo\\Index.razor",
+              "RelativeToolTip": "Components\\Pages\\Processo\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-29T18:07:34.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T18:07:34.34Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "DAO\\ProcessoDAO.cs",
               "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\DAO\\ProcessoDAO.cs*",
               "RelativeToolTip": "DAO\\ProcessoDAO.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAmwC0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwC0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T17:57:27.861Z",
               "EditorCaption": ""
@@ -77,12 +75,11 @@
               "Title": "Processo.cs",
               "DocumentMoniker": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Model\\Processo.cs",
               "RelativeDocumentMoniker": "Model\\Processo.cs",
-              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Model\\Processo.cs*",
-              "RelativeToolTip": "Model\\Processo.cs*",
+              "ToolTip": "C:\\Users\\2024102020058\\Documents\\AppWebSamuelButzke\\AppWebSamuelButzke\\Model\\Processo.cs",
+              "RelativeToolTip": "Model\\Processo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T17:55:37.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T17:55:37.228Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-08T19:07:09.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T19:07:09.758Z"
             }
           ]
         }
