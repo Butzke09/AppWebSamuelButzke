@@ -1,0 +1,144 @@
+﻿@page "/processos/visualizar/{Id:int}"
+
+@using AppWebSamuelButzke.Model
+@using AppWebSamuelButzke.DAO
+
+@inject ProcessoDAO dao
+
+<PageTitle>Visualizar Processo - Sistema de Controle de Processos</PageTitle>
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1">Detalhes do Processo</h2>
+    <p class="text-muted mb-0">
+        Consulte todas as informações do processo selecionado.
+    </p>
+</div>
+
+@if (!processoEncontrado)
+{
+    <div class="alert alert-warning" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        Processo não encontrado.
+
+        <a href="/processos" class="alert-link">
+            Voltar para a lista
+        </a>
+    </div>
+}
+else
+{
+    <div class="custom-table-card p-4">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h5 class="fw-bold mb-1">
+                    Processo @processo.Numero
+                </h5>
+                <span class="text-muted small">
+                    Identificação: #@processo.Id
+                </span>
+            </div>
+
+            <span class="badge rounded-pill
+                @(processo.Situacao == "Aberto" ? "bg-success" :
+                  processo.Situacao == "Arquivado" ? "bg-secondary" :
+                  processo.Situacao == "Pendente" ? "bg-warning text-dark" :
+                  processo.Situacao == "Concluido" ? "bg-primary" :
+                  "bg-info text-dark")">
+                @processo.Situacao
+            </span>
+        </div>
+
+        <hr />
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <label class="form-label text-muted">
+                    Número do Processo
+                </label>
+                <p class="fw-semibold">@processo.Numero</p>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label text-muted">
+                    Data
+                </label>
+                <p class="fw-semibold">
+                    @(processo.Data?.ToString("dd/MM/yyyy") ?? "Não informada")
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label text-muted">
+                    Interessado
+                </label>
+                <p class="fw-semibold">@processo.Interessado</p>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label text-muted">
+                    Assunto
+                </label>
+                <p class="fw-semibold">@processo.Assunto</p>
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">
+                    Descrição
+                </label>
+
+                <div class="border rounded p-3 bg-light">
+                    @if (string.IsNullOrWhiteSpace(processo.Descricao))
+                    {
+                        <span class="text-muted">
+                            Nenhuma descrição informada.
+                        </span>
+                    }
+                    else
+                    {
+                        <p class="mb-0" style="white-space: pre-wrap;">@processo.Descricao</p>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="d-flex flex-wrap gap-2">
+
+            <a href="@($"/processos/editar/{processo.Id}")"
+               class="btn btn-primary">
+                <i class="bi bi-pencil"></i> Editar Processo
+            </a>
+
+            <a href="/processos"
+               class="btn btn-light border">
+                <i class="bi bi-arrow-left"></i> Voltar
+            </a>
+
+        </div>
+
+    </div>
+}
+
+@code {
+    private Processo processo = new();
+    private bool processoEncontrado = true;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        var processoCarregado = dao.ObterPorId(Id);
+
+        processoEncontrado = processoCarregado is not null;
+
+        if (processoCarregado is not null)
+        {
+            processo = processoCarregado;
+        }
+    }
+}
